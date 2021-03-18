@@ -1,0 +1,24 @@
+img{
+    max-width: 130px;
+}
+
+.mg-b-0{
+    margin-bottom: 0;
+}
+
+/*bg*/
+
+.bg-hero{
+    background-image: url(bg-banner-home.jpg);
+    background-size: contain;
+}
+
+.bg-hero-white{
+    background-color: white;
+}
+
+.pannel-hero{
+    padding: 30px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
