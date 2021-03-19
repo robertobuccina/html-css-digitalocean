@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 
     <title>DIGITALOCEAN</title>
@@ -13,43 +13,26 @@
 <body>
 
     <header>
-        <nav>
-            <nav class="navbar navbar-default mg-b-0">
-                <div class="container">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header ">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="img\logo.png" alt=""></a>
-                    <ul class="nav navbar-nav navbar-left">
-                        <li></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        </li>
-                        <li><a href="#">Link</a></li>
-                     
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        </li>
-                        <li><a href="#">Link</a></li>
-                      </ul>
-                  </div>
-        
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right nav-pills">
-                       <li><a href="#">Link</a></li>
-                       <li class="dropdown">
-                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"      aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                       </li>
-                       <li><a href="#">Link</a></li>
-                    </ul>
-                  </div>
+        <nav class="bg-lightgrey">
+            <nav class="container">
+                <div class="logo float-left">
+                    <img src="img\logo.png" alt="">
                 </div>
+                <ul class="nav-left float-left">
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+
+                <ul class="nav-right float-right">
+ 
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a></li>
+                    <li><a href="#">Login</a></li>
+                    <button type="button" class="btn btn-primary blue bg-white">Create your account</button>
+                </ul>
+
             </nav>
         </nav>
     </header>
@@ -60,36 +43,263 @@
             <div class="hero container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="h1">The simplest cloud plattform for developers & teams</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id nam inventore velit ipsum optio. Alias corrupti explicabo ducimus optio assumenda quam nisi rem. Eaque cupiditate dolores autem itaque beatae.</p>
+                       <div class="sx-hero">
+                          <p style="color: white; font-size: 50px; line-height: 60px;">The simplest cloud plattform for <br> developers & teams</p>
+                          <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id nam inventore velit ipsum optio. Alias corrupti explicabo ducimus optio assumenda quam nisi rem. Eaque cupiditate dolores autem itaque beatae.</p>
+                       </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="pannel-hero bg-hero-white">
-                            <p>Deploy your app in second.</p>
-                            <p>Get started now</p>
+                        <div class="pannel-hero bg-white">
+                            <p class="h2 t-bold dark text-center">Deploy your app in second.</p>
+                            <p class="h2 t-bold blue text-center">Get started now</p>
                             <form>
                                 <div class="form-group">
                                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                                  <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button> 
+                                  <button type="button" class="btn btn-primary btn-lg btn-block bg-blue">Create you accoutn</button>
+                                  <button type="button" class="btn btn-default btn-lg btn-block">Sign up with google</button> 
                                 </div> 
                             </form>
-                            <p>By sugning up you agree to the Terms of Service</p>
+                            <p class="text-center">By sugning up you agree to the <span class="blue">fdgdfgfd</span></p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <!-- partner -->
+        <section class="partner bg-lightgrey">
+            <div class="container">
+
+            <p class="t-bold text-center">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p>
+            <div class="row">
+                <div class="col-md-2">
+                   <div class="docker inline-block bg-white">
+                       <img src="img\docker.svg" alt="">
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="gitlab inline-block">
+                       <img src="img\gitlab.svg" alt="">
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="slack inline-block">
+                       <img src="img\slack.svg" alt="">
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="hashicorp inline-block">
+                       <img src="img\hashicorp.svg" alt="">
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="hashicorp inline-block">
+                       <img src="img\hashicorp.svg" alt="">
+                   </div>
+                </div>
+                <div class="col-md-2">
+                   <div class="splunk inline-block">
+                       <img src="img\splunk.svg" alt="">
+                   </div>
+                </div>
+            </div>
+            <a href="#"><p class="blue text-center bold">View customer stories ></p></a>
+        </div>
+        </section>
+        <!-- deploy -->
+        <section class="container deploy">
+            <p class="h3 t-bold text-center dark">Deploy and scale seamslessly</p>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit laborum ratione delectus vel. Itaque consequatur officia recusandae enim optio? Iusto veniam voluptates in voluptas temporibus cum sequi aut corrupti!</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul>
+                        <li><a class="blue t-bold" href="#">Deploy</a></li>
+                        <li><a class="blue t-bold" href="#">Deploy</a></li>
+                        <li><a class="blue t-bold" href="#">Deploy</a></li>
+                        <li><a class="blue t-bold" href="#">Deploy</a></li>
+                        <li><a class="blue t-bold" href="#">Deploy</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="cluster">
+                                <img src="img\cluster-deploy.svg" alt="">
+                            </div>
+                            <p class="t-bold dark">Cluster deployment</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, itaque? Aut illo voluptas nihil fugiat! Quaerat minus saepe consequatur. Delectus facilis beatae consectetur provident neque culpa repellat. Adipisci, quia quasi!</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="optimized">
+                                <img src="img\optimized-compute.svg" alt="">
+                            </div>
+                            <p class="t-bold dark">Cluster deployment</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel adipisci ex ut impedit quae magnam, debitis nobis distinctio cumque harum repellendus provident vitae reiciendis, eos ratione labore numquam accusamus accusantium!</p> 
+                        </div>
+                        <div class="col-md-6">
+                            <div class="one-click">
+                                <img src="img\one-click.svg" alt="">
+                            </div>
+                            <p class="t-bold dark">Cluster deployment</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel adipisci ex ut impedit quae magnam, debitis nobis distinctio cumque harum repellendus provident vitae reiciendis, eos ratione labore numquam accusamus accusantium!</p>   
+                        </div>
+                        <div class="col-md-6">
+                            <div class="global">
+                                <img src="img\global.svg" alt="">
+                            </div>
+                            <p class="t-bold dark">Cluster deployment</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel adipisci ex ut impedit quae magnam, debitis nobis distinctio cumque harum repellendus provident vitae reiciendis, eos ratione labore numquam accusamus accusantium!</p>                               
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- carosel -->
+        <section class="container">
+            <p class="h3 t-bold text-center dark">Designed for developers</p>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis architecto corporis doloremque inventore laudantium, non aliquid, commodi, vel repudiandae quidem similique necessitatibus. Vitae iusto, incidunt cupiditate cumque distinctio odio!</p>
+            <div class="carosel">
+                <div class="slide">
+                    <a style="font-size: 30px;" href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+                    <img src="img\slide.jpg" alt="">
+                    <a style="font-size: 30px;" href="#"><span class="glyphicon glyphicon-chevron-right " aria-hidden="true"></span></a>
+                </div>
+                <a href="#"><p>Create compute servers in 55 second or less</p></a>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-caption" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                </ol>
+            </div>
+        </section>
+        <!-- features -->
+        <section class="container">
+            <p class="h3 t-bold text-center dark">The features your business needs</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="pred-pricing">
+                        <img src="img\pred-pricing.svg" alt="">
+                    </div>
+                    <p class="t-bold dark">Predicable prcicing</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi officiis dolore impedit qui pariatur, quaerat, deleniti aliquam eaque repellat voluptatem totam distinctio quam consectetur nemo aut harum illo. Dolorum, corporis!
+                    </p>
+                    <a href="#"><p>Pricing</p></a>
+                </div>
+                <div class="col-md-4">
+                    <div class="word-class">
+                        <img src="img\world-class.svg" alt="">
+                    </div>
+                    <p class="t-bold dark">World-class service</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi officiis dolore impedit qui pariatur, quaerat, deleniti aliquam eaque repellat voluptatem totam distinctio quam consectetur nemo aut harum illo. Dolorum, corporis!
+                    </p>
+                    <a href="#"><p>Support</p></a>
+                </div>
+                <div class="col-md-4">
+                    <div class="reliable-platform">
+                        <img src="img\reliable-platform.svg" alt="">
+                    </div>
+                    <p class="t-bold dark">Reliable platform</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi officiis dolore impedit qui pariatur, quaerat, deleniti aliquam eaque repellat voluptatem totam distinctio quam consectetur nemo aut harum illo. Dolorum, corporis!
+                    </p>
+                    <a href="#"><p>Security</p></a>
+                </div>
+            </div>
+        </section>
+        <!-- table -->
+        <section class="bg-blu-gradient">
+            <div class="container">
+                <p class="h3 t-bold white text-center">Service your customer around the word from 12 regions</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="var-table">
+                            <tr>
+                               <td><p class="white">AMS2</p></td>
+                               <td><p class="grey">Amsterdam, Netherlands</p></td>
+                               <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                             <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr>
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr>  
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="var-table">
+                            <tr>
+                               <td><p class="white">AMS2</p></td>
+                               <td><p class="grey">Amsterdam, Netherlands</p></td>
+                               <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                             <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr>
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr> 
+                            <tr>
+                                <td><p class="white">AMS2</p></td>
+                                <td><p class="grey">Amsterdam, Netherlands</p></td>
+                                <td><a href="#"><p class="green">Test speed ></p></a></td>
+                            </tr>  
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section>
 
         </section>
 
-        <section>
-             
+        <section class="bg-blu-gradient">
+            <div class="container">
+                <p class="h3 t-bold white text-center">Get started now</p>
+                <button type="button" class="btn btn-primary blue bg-white">Create your account</button>
+            </div>
         </section>
 
+        <footer>
+
+        </footer>
+
+
+       
 
 
 
