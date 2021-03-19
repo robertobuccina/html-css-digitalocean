@@ -5,11 +5,30 @@ nav img{
     max-width: 130px;
 }
 
+.nav-left li{
+    float: left;
+}
+
+.nav-right li{
+    float: left;
+}
+
+nav li{
+    padding: 0 15px;
+    list-style: none;
+}
+
+nav{
+    min-height: 50px;
+    line-height: 50px;
+}
+
+/*MAIN*/
 main section{
     padding: 40px 0;
 }
 
-main :nth-child(3) ul li{
+.list-deploy li{
     border-left: 1px solid grey;
     list-style: none;
     padding: 10px 0;
@@ -21,14 +40,10 @@ main :nth-child(3) ul li{
     padding: 15px 0;
 }
 
-/* HERO*/
+/* hero*/
 .pannel-hero{
     padding: 30px;
     border-radius: 5px;
-}
-
-.pannel-hero form .form-group>*{
-    margin: 10px 0;
 }
 
 /*bg and color*/
@@ -54,6 +69,10 @@ main :nth-child(3) ul li{
     background-color: rgb(0, 132, 255);
 }
 
+.bg-darkblue{
+    background:#151b5c;  
+}
+
 .grey{
     color:rgba(217, 223, 235, 0.7);
 }
@@ -74,12 +93,7 @@ main :nth-child(3) ul li{
     color: rgb(90, 253, 191);
 }
 
-
-
-
-
-
-/* Table*/
+/*Table*/
 .var-table{
     width: 100%;
     max-width: 100%;
@@ -100,11 +114,6 @@ main :nth-child(3) ul li{
     padding:15px 0;
 }
 
-
-.mg-auto{
-    margin: auto;
-}
-
 .partner img{
     min-width: 120px;
 }
@@ -112,7 +121,6 @@ main :nth-child(3) ul li{
 .slide img{
     max-width: 400px;
 }
-
 
 /* COMMON*/
 .mg-b-0{
@@ -131,11 +139,30 @@ p{
     font-weight: bold;
 }
 
-
 .float-left{
     float: left;
 }
 
 .float-right{
     float: right;
+}
+
+/*FOOTER*/
+
+footer{
+    padding: 40px 0;
+}
+
+
+footer ul li{
+    list-style: none;
+    line-height: 30px;
+}
+
+address{
+    line-height: 10px;
+}
+
+.logo-footer{
+    padding-bottom: 15px;
 }
