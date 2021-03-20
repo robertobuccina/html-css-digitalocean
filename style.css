@@ -23,17 +23,39 @@ nav{
     line-height: 50px;
 }
 
+.collapse-navbar ul li a{
+    text-decoration: none;
+}
+
+.collapse-navbar ul li a:hover{
+    border-bottom: 3px solid rgb(0, 132, 255);
+    padding-bottom: 3px;}
+    
+
 /*MAIN*/
 main section{
     padding: 40px 0;
 }
 
+main :nth-child(7){
+    padding-bottom: 120px;
+}
+
+/*DEPLOY*/
 .list-deploy li{
     border-left: 1px solid grey;
     list-style: none;
     padding: 10px 0;
-    padding-left: 8px;
+    padding-left: 15px;
     margin-left: 50px;
+}
+
+.list-deploy li a:hover{
+    text-decoration: none;
+    border-left: 3px solid blue;
+    padding-left: 3px;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 
 .deploy img{
@@ -44,6 +66,10 @@ main section{
 .pannel-hero{
     padding: 30px;
     border-radius: 5px;
+}
+
+.pannel-hero .form-group> *{
+    margin: 10px 0;
 }
 
 /*bg and color*/
@@ -117,9 +143,41 @@ main section{
 .partner img{
     min-width: 120px;
 }
+/* CAROSEL*/
+.carosel-1 .slide-content img{
+    max-width: 500px;
+}
 
-.slide img{
-    max-width: 400px;
+.slide-bar li{
+    float: left;
+    list-style: none;
+    margin: 0 3px;
+    font-size: 10px;
+}
+.carosel-1,.carosel-2{
+    position: relative;
+
+}
+.slide-bar{
+    padding-inline-start: 0px;
+    Position: absolute;
+    Top: 105%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.slide-content .second img{
+    max-width: 200px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.second{
+    max-width: 350px;
+}
+
+.carosel-2 ul{
+    padding-top: 70px;
 }
 
 /* COMMON*/
@@ -148,11 +206,9 @@ p{
 }
 
 /*FOOTER*/
-
 footer{
     padding: 40px 0;
 }
-
 
 footer ul li{
     list-style: none;
@@ -166,3 +222,33 @@ address{
 .logo-footer{
     padding-bottom: 15px;
 }
+
+address span{
+    font-size: 25px;
+    padding top: 15px;
+    margin-right: 10px;
+}
+
+
+/*MEDIA QUERI*/
+@media screen and (max-width: 994px){
+    .collapse-navbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 995px){
+    .hamburgher-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .glyphicon-chevron-left,.glyphicon-chevron-right{
+        display: none;
+    }
+}
+
+
+
+
