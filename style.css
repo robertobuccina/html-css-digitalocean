@@ -73,10 +73,13 @@ main> :nth-child(7){
 }
 /*PARTNER*/
 .group-img-partner img{
-    min-width: 180px;
-    padding-bottom: 0px;
-    padding: 0 10px;
+    max-width: 220px;
+    margin: 0 10px;
 }
+
+
+
+
 
 /*BACKGROUND AND COLOR*/
 .bg-hero{
@@ -250,13 +253,28 @@ address span{
     footer ul{
         padding-inline-start: 5px;
     }
+}
+/*MEDIA PARTNER*/
+@media screen and (min-width: 994px) and (max-width:1201px){
     .group-img-partner img{
-        min-width: 180px;
-        padding-bottom: 0px;
-        padding: 0 10px;
+        max-width: 120px;
+        margin: 0 10px;
     }
 }
 
+@media screen and (min-width: 668px) and (max-width:993px){
+    .group-img-partner img{
+        max-width: 90px;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:667px){
+    .group-img-partner img{
+        max-width: 65px;
+        margin: 0px;
+    }
+}
 
 /* COMMON*/
 .mg-b-0{
